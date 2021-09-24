@@ -24,5 +24,5 @@ public:
     string getName();
     int getAge();
     int getLuck();
-
+    void changeLuck(int sw1,int sw2);
 };

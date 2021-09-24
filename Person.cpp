@@ -21,13 +21,13 @@ using namespace std;
         this->luck=luck;
     }
     string Person::getName(){
-        return name;
+        return this->name;
     }
     int Person::getAge(){
-        return age;
+        return this->age;
     }
     int Person::getLuck(){
-        return luck;
+        return this->luck;
     }
     void Person::setName(string name){
         this->name=name;
@@ -38,5 +38,4 @@ using namespace std;
     void Person::setLuck(int luck){
         this->luck=luck;
     }
-
 ;
